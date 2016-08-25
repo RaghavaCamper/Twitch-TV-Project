@@ -1,0 +1,66 @@
+HTML and CSS of my project
+
+
+<body>
+  <div id="container">
+     <div id="double">
+    <div id="header">
+      <h2> Welcome to Twitch TV App </h2>
+      <div id="foostatus"></div>
+      </div><!-- end of header tag-->
+      <div class="row">
+        <div class="col-sm-4">
+          <button type="button" class=" btn btn-primary btn-lg center-block"> All </button>
+        </div>
+        <div class="col-sm-4">
+        <button type="button" class="btn btn-success btn-lg center-block"> Online </button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-danger btn-lg center-block">Offline </button>
+        </div>
+        </div><!-- end of row tag-->
+    </div><!-- end of double container-->
+    </div> <!-- end of container id-->
+</body>
+
+
+.row{
+ margin-top: 75px;
+}
+.btn{
+  border-radius: 5px;
+  display: block;
+  line-height: 30px;
+  position: relative;
+  text-transform: uppercase;
+  vertical-align:middle;
+  margin-bottom: 40px;
+
+ }
+.btn:hover{
+  color: violet;
+   background: rgba(0,0,0, 0.9);
+   border: 2px outset rgba(0, 0, 0, 0.9);
+   transform:scale(1.1);
+    transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Lobster;
+  font-size: 40px;
+  color: #36648B;
+  font-weight: none;
+}
+#double{
+  margin-top: 25px;
+  border:solid;
+  border-width:5px;
+  border-radius: 12.5px;
+  background-color:#E6E6FA;
+  border-color: gray;
+}
+
