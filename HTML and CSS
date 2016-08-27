@@ -23,7 +23,6 @@ HTML and CSS of my project
     </div> <!-- end of container id-->
 </body>
 
-
 .row{
  margin-top: 75px;
 }
@@ -38,7 +37,7 @@ HTML and CSS of my project
 
  }
 .btn:hover{
-  color: violet;
+  color: turquoise;
    background: rgba(0,0,0, 0.9);
    border: 2px outset rgba(0, 0, 0, 0.9);
    transform:scale(1.1);
@@ -63,4 +62,36 @@ h2{
   background-color:#E6E6FA;
   border-color: gray;
 }
+#foostatus{
+  text-align: center;
+  font-size: 28.5px;
+  font-weight: bold;
+  font-family:Ubuntu;
+  padding-top: 9.5px;
+  color: #4A708B;
+}
+#footer{
+  margin-top: 125px;
+  margin-left:320px;
+}
+.logo {
+  border-radius: 50%;
+  width: 125px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-left: 77px;
+  border: 2px black;
+  
+}
+.name {
+  color: red;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 325px;
+}
+
+
+
+
 
